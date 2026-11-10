@@ -274,7 +274,18 @@ window.TALK_DATA = {
         { id: 'fix', t: '容易犯的错' },
         { id: 'plan', t: '怎么用这 50 分钟' }
       ] },
-    { no: 23, part: 'part-3', title: 'Making Topical Questions', page: 'p.118' },
+    { no: 23, part: 'part-3', title: 'Making Topical Questions', page: 'p.118',
+      href: 'lessons/lesson-23.html', ready: true,
+      sections: [
+        { id: 'frame', t: '造问句的骨架' },
+        { id: 'pattern', t: '七词轮转与三层追问' },
+        { id: 'example', t: '课本例题' },
+        { id: 'items', t: '二十个话题' },
+        { id: 'vocab', t: '重点词汇' },
+        { id: 'qa', t: '老师会问什么' },
+        { id: 'fix', t: '容易犯的错' },
+        { id: 'plan', t: '怎么用这 50 分钟' }
+      ] },
 
     { no: 24, part: 'part-4', title: 'What’s Happening?', page: 'p.124' },
     { no: 25, part: 'part-4', title: 'What’s Wrong?', page: 'p.130' },
