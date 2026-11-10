@@ -287,7 +287,17 @@ window.TALK_DATA = {
         { id: 'plan', t: '怎么用这 50 分钟' }
       ] },
 
-    { no: 24, part: 'part-4', title: 'What’s Happening?', page: 'p.124' },
+    { no: 24, part: 'part-4', title: 'What’s Happening?', page: 'p.124',
+      href: 'lessons/lesson-24.html', ready: true,
+      sections: [
+        { id: 'frame', t: '描述图的骨架' },
+        { id: 'pattern', t: '三个时态与虚拟语气' },
+        { id: 'items', t: '六个场景' },
+        { id: 'vocab', t: '重点词汇' },
+        { id: 'qa', t: '老师会问什么' },
+        { id: 'fix', t: '容易犯的错' },
+        { id: 'plan', t: '怎么用这 50 分钟' }
+      ] },
     { no: 25, part: 'part-4', title: 'What’s Wrong?', page: 'p.130' },
     { no: 26, part: 'part-4', title: '“What Is It?” Questions', page: 'p.136' },
     { no: 27, part: 'part-4', title: 'Qualifications', page: 'p.142' },
