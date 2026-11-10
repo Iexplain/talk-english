@@ -177,7 +177,18 @@ window.TALK_DATA = {
         { id: 'fix', t: '容易犯的错' },
         { id: 'plan', t: '怎么用这 50 分钟' }
       ] },
-    { no: 15, part: 'part-2', title: '“Have You Ever” Questions', page: 'p.80' },
+    { no: 15, part: 'part-2', title: '“Have You Ever” Questions', page: 'p.80',
+      href: 'lessons/lesson-15.html', ready: true,
+      sections: [
+        { id: 'frame', t: '回答骨架' },
+        { id: 'pattern', t: '时态切换与三种答法' },
+        { id: 'example', t: '课本例题' },
+        { id: 'items', t: '二十个问题' },
+        { id: 'vocab', t: '重点词汇' },
+        { id: 'qa', t: '老师会问什么' },
+        { id: 'fix', t: '容易犯的错' },
+        { id: 'plan', t: '怎么用这 50 分钟' }
+      ] },
     { no: 16, part: 'part-2', title: '“I Wonder If” Questions', page: 'p.86' },
 
     { no: 17, part: 'part-3', title: 'Make a Question Starting with “What”', page: 'p.88' },
