@@ -82,7 +82,17 @@ window.TALK_DATA = {
         { id: 'fix', t: '容易犯的错' },
         { id: 'plan', t: '怎么用这 50 分钟' }
       ] },
-    { no: 7,  part: 'part-2', title: '“What” Questions', page: 'p.38' },
+    { no: 7,  part: 'part-2', title: '“What” Questions', page: 'p.38',
+      href: 'lessons/lesson-07.html', ready: true,
+      sections: [
+        { id: 'frame', t: '回答骨架' },
+        { id: 'pattern', t: '七种 What 问法' },
+        { id: 'items', t: '二十五个问题' },
+        { id: 'vocab', t: '重点词汇' },
+        { id: 'qa', t: '老师会问什么' },
+        { id: 'fix', t: '容易犯的错' },
+        { id: 'plan', t: '怎么用这 50 分钟' }
+      ] },
     { no: 8,  part: 'part-2', title: '“Who” Questions', page: 'p.44' },
     { no: 9,  part: 'part-2', title: '“Where” Questions', page: 'p.50' },
     { no: 10, part: 'part-2', title: '“Why” Questions', page: 'p.54' },
