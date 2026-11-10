@@ -250,7 +250,18 @@ window.TALK_DATA = {
         { id: 'fix', t: '容易犯的错' },
         { id: 'plan', t: '怎么用这 50 分钟' }
       ] },
-    { no: 21, part: 'part-3', title: 'Make a Question Starting with “Why”', page: 'p.106' },
+    { no: 21, part: 'part-3', title: 'Make a Question Starting with “Why”', page: 'p.106',
+      href: 'lessons/lesson-21.html', ready: true,
+      sections: [
+        { id: 'frame', t: '造问句的骨架' },
+        { id: 'pattern', t: 'Why 的三种用法' },
+        { id: 'example', t: '课本例题' },
+        { id: 'items', t: '十五个陈述句' },
+        { id: 'vocab', t: '重点词汇' },
+        { id: 'qa', t: '老师会问什么' },
+        { id: 'fix', t: '容易犯的错' },
+        { id: 'plan', t: '怎么用这 50 分钟' }
+      ] },
     { no: 22, part: 'part-3', title: 'Ask Him', page: 'p.110' },
     { no: 23, part: 'part-3', title: 'Making Topical Questions', page: 'p.118' },
 
