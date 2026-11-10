@@ -45,8 +45,6 @@
     <ul class="chips">
       <li>课本 p.XX–XX</li>
       <li>N 个条目</li>
-      <li>50 分钟 1v1</li>
-      <li>美式发音</li>
     </ul>
   </div>
 
