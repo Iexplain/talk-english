@@ -35,8 +35,30 @@ window.TALK_DATA = {
         { id: 'fix',     t: '容易犯的错' },
         { id: 'plan',    t: '怎么用这 50 分钟' }
       ] },
-    { no: 3,  part: 'part-1', title: 'What Do You Say?', page: 'p.14' },
-    { no: 4,  part: 'part-1', title: 'When Do You Say This?', page: 'p.18' },
+    { no: 3,  part: 'part-1', title: 'What Do You Say?', page: 'p.14',
+      href: 'lessons/lesson-03.html', ready: true,
+      sections: [
+        { id: 'frame',   t: '回答骨架' },
+        { id: 'pattern', t: '整块背，别拼' },
+        { id: 'example', t: '课本标准答案' },
+        { id: 'items',   t: '十五个场景' },
+        { id: 'vocab',   t: '重点词汇' },
+        { id: 'qa',      t: '老师会问什么' },
+        { id: 'fix',     t: '容易犯的错' },
+        { id: 'plan',    t: '怎么用这 50 分钟' }
+      ] },
+    { no: 4,  part: 'part-1', title: 'When Do You Say This?', page: 'p.18',
+      href: 'lessons/lesson-04.html', ready: true,
+      sections: [
+        { id: 'frame',   t: '回答骨架' },
+        { id: 'pattern', t: '20 句的共同规律' },
+        { id: 'example', t: '课本标准答案' },
+        { id: 'items',   t: '二十句话' },
+        { id: 'vocab',   t: '重点词汇' },
+        { id: 'qa',      t: '老师会问什么' },
+        { id: 'fix',     t: '容易犯的错' },
+        { id: 'plan',    t: '怎么用这 50 分钟' }
+      ] },
 
     { no: 5,  part: 'part-2', title: '“Do You Like” Questions', page: 'p.24' },
     { no: 6,  part: 'part-2', title: '“Do You Think You Are” Questions', page: 'p.32' },
