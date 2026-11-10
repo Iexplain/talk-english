@@ -189,7 +189,18 @@ window.TALK_DATA = {
         { id: 'fix', t: '容易犯的错' },
         { id: 'plan', t: '怎么用这 50 分钟' }
       ] },
-    { no: 16, part: 'part-2', title: '“I Wonder If” Questions', page: 'p.86' },
+    { no: 16, part: 'part-2', title: '“I Wonder If” Questions', page: 'p.86',
+      href: 'lessons/lesson-16.html', ready: true,
+      sections: [
+        { id: 'frame', t: '回答骨架' },
+        { id: 'pattern', t: '陈述语序与三种功能' },
+        { id: 'example', t: '课本例题' },
+        { id: 'items', t: '十个问题' },
+        { id: 'vocab', t: '重点词汇' },
+        { id: 'qa', t: '老师会问什么' },
+        { id: 'fix', t: '容易犯的错' },
+        { id: 'plan', t: '怎么用这 50 分钟' }
+      ] },
 
     { no: 17, part: 'part-3', title: 'Make a Question Starting with “What”', page: 'p.88' },
     { no: 18, part: 'part-3', title: 'Make a Question Starting with “When”', page: 'p.94' },
