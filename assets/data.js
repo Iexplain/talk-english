@@ -238,7 +238,18 @@ window.TALK_DATA = {
         { id: 'fix', t: '容易犯的错' },
         { id: 'plan', t: '怎么用这 50 分钟' }
       ] },
-    { no: 20, part: 'part-3', title: 'Make a Question Starting with “Where”', page: 'p.102' },
+    { no: 20, part: 'part-3', title: 'Make a Question Starting with “Where”', page: 'p.102',
+      href: 'lessons/lesson-20.html', ready: true,
+      sections: [
+        { id: 'frame', t: '造问句的骨架' },
+        { id: 'pattern', t: '地点介词与去留' },
+        { id: 'example', t: '课本例题' },
+        { id: 'items', t: '十五个陈述句' },
+        { id: 'vocab', t: '重点词汇' },
+        { id: 'qa', t: '老师会问什么' },
+        { id: 'fix', t: '容易犯的错' },
+        { id: 'plan', t: '怎么用这 50 分钟' }
+      ] },
     { no: 21, part: 'part-3', title: 'Make a Question Starting with “Why”', page: 'p.106' },
     { no: 22, part: 'part-3', title: 'Ask Him', page: 'p.110' },
     { no: 23, part: 'part-3', title: 'Making Topical Questions', page: 'p.118' },
