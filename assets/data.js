@@ -105,7 +105,18 @@ window.TALK_DATA = {
         { id: 'fix', t: '容易犯的错' },
         { id: 'plan', t: '怎么用这 50 分钟' }
       ] },
-    { no: 9,  part: 'part-2', title: '“Where” Questions', page: 'p.50' },
+    { no: 9,  part: 'part-2', title: '“Where” Questions', page: 'p.50',
+      href: 'lessons/lesson-09.html', ready: true,
+      sections: [
+        { id: 'frame', t: '回答骨架' },
+        { id: 'pattern', t: '四组介词' },
+        { id: 'example', t: '课本例题' },
+        { id: 'items', t: '十五个问题' },
+        { id: 'vocab', t: '重点词汇' },
+        { id: 'qa', t: '老师会问什么' },
+        { id: 'fix', t: '容易犯的错' },
+        { id: 'plan', t: '怎么用这 50 分钟' }
+      ] },
     { no: 10, part: 'part-2', title: '“Why” Questions', page: 'p.54' },
     { no: 11, part: 'part-2', title: '“When” Questions', page: 'p.60' },
     { no: 12, part: 'part-2', title: '“How” Questions', page: 'p.64' },
