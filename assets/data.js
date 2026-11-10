@@ -202,7 +202,18 @@ window.TALK_DATA = {
         { id: 'plan', t: '怎么用这 50 分钟' }
       ] },
 
-    { no: 17, part: 'part-3', title: 'Make a Question Starting with “What”', page: 'p.88' },
+    { no: 17, part: 'part-3', title: 'Make a Question Starting with “What”', page: 'p.88',
+      href: 'lessons/lesson-17.html', ready: true,
+      sections: [
+        { id: 'frame', t: '造问句的骨架' },
+        { id: 'pattern', t: '助动词配方表' },
+        { id: 'example', t: '课本例题' },
+        { id: 'items', t: '二十个陈述句' },
+        { id: 'vocab', t: '重点词汇' },
+        { id: 'qa', t: '老师会问什么' },
+        { id: 'fix', t: '容易犯的错' },
+        { id: 'plan', t: '怎么用这 50 分钟' }
+      ] },
     { no: 18, part: 'part-3', title: 'Make a Question Starting with “When”', page: 'p.94' },
     { no: 19, part: 'part-3', title: 'Make a Question Starting with “How”', page: 'p.98' },
     { no: 20, part: 'part-3', title: 'Make a Question Starting with “Where”', page: 'p.102' },
