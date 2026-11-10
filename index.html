@@ -7,21 +7,23 @@
 <meta name="description" content="Talk Talk Talk 1 共 30 课的逐课预习：重点词汇、美式音标、图片词汇口语描述、课堂问答参考。">
 <link rel="stylesheet" href="assets/style.css">
 </head>
-<body>
+<body data-lesson="0" data-root="">
+
+<div id="sidebar"></div>
+<div id="sidebar-overlay"></div>
+
+<div class="page">
 
 <header class="topbar">
   <div class="wrap">
+    <button class="side-toggle" id="sidebar-toggle" type="button" aria-label="打开课文目录" aria-controls="sidebar" aria-expanded="false">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 4h12M2 8h12M2 12h12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    </button>
     <a class="brand" href="index.html">Talk <span>Talk</span> Talk 1</a>
-    <nav>
-      <a href="#part-1">Part I</a>
-      <a href="#part-2">Part II</a>
-      <a href="#part-3">Part III</a>
-      <a href="#part-4">Part IV</a>
-    </nav>
   </div>
 </header>
 
-<main class="wrap">
+<main class="wrap" id="content">
 
   <div class="hero">
     <p class="kicker">Book 1 · 30 Lessons</p>
@@ -132,6 +134,11 @@
     <p>Talk Talk Talk 1 · 预习材料 · 依据课本《New Talk Talk Talk 1》整理，页码为书内页码。</p>
   </div>
 </footer>
+
+</div><!-- /.page -->
+
+<script src="assets/data.js"></script>
+<script src="assets/site.js"></script>
 
 </body>
 </html>
