@@ -262,7 +262,18 @@ window.TALK_DATA = {
         { id: 'fix', t: '容易犯的错' },
         { id: 'plan', t: '怎么用这 50 分钟' }
       ] },
-    { no: 22, part: 'part-3', title: 'Ask Him', page: 'p.110' },
+    { no: 22, part: 'part-3', title: 'Ask Him', page: 'p.110',
+      href: 'lessons/lesson-22.html', ready: true,
+      sections: [
+        { id: 'frame', t: '造问句的骨架' },
+        { id: 'pattern', t: '两种问法与人称转换' },
+        { id: 'example', t: '课本例题' },
+        { id: 'items', t: '三十个指令' },
+        { id: 'vocab', t: '重点词汇' },
+        { id: 'qa', t: '老师会问什么' },
+        { id: 'fix', t: '容易犯的错' },
+        { id: 'plan', t: '怎么用这 50 分钟' }
+      ] },
     { no: 23, part: 'part-3', title: 'Making Topical Questions', page: 'p.118' },
 
     { no: 24, part: 'part-4', title: 'What’s Happening?', page: 'p.124' },
