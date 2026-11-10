@@ -23,7 +23,18 @@ window.TALK_DATA = {
         { id: 'fix',     t: '容易犯的错' },
         { id: 'plan',    t: '怎么用这 50 分钟' }
       ] },
-    { no: 2,  part: 'part-1', title: 'What Are They For?', page: 'p.12' },
+    { no: 2,  part: 'part-1', title: 'What Are They For?', page: 'p.12',
+      href: 'lessons/lesson-02.html', ready: true,
+      sections: [
+        { id: 'frame',   t: '回答骨架' },
+        { id: 'pattern', t: '用途的五种说法' },
+        { id: 'example', t: '课本标准答案' },
+        { id: 'items',   t: '十个物品' },
+        { id: 'vocab',   t: '重点词汇' },
+        { id: 'qa',      t: '老师会问什么' },
+        { id: 'fix',     t: '容易犯的错' },
+        { id: 'plan',    t: '怎么用这 50 分钟' }
+      ] },
     { no: 3,  part: 'part-1', title: 'What Do You Say?', page: 'p.14' },
     { no: 4,  part: 'part-1', title: 'When Do You Say This?', page: 'p.18' },
 
