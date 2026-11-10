@@ -298,7 +298,17 @@ window.TALK_DATA = {
         { id: 'fix', t: '容易犯的错' },
         { id: 'plan', t: '怎么用这 50 分钟' }
       ] },
-    { no: 25, part: 'part-4', title: 'What’s Wrong?', page: 'p.130' },
+    { no: 25, part: 'part-4', title: 'What’s Wrong?', page: 'p.130',
+      href: 'lessons/lesson-25.html', ready: true,
+      sections: [
+        { id: 'frame', t: '判断的骨架' },
+        { id: 'pattern', t: '三层依据与分寸' },
+        { id: 'items', t: '六个场景' },
+        { id: 'vocab', t: '重点词汇' },
+        { id: 'qa', t: '老师会问什么' },
+        { id: 'fix', t: '容易犯的错' },
+        { id: 'plan', t: '怎么用这 50 分钟' }
+      ] },
     { no: 26, part: 'part-4', title: '“What Is It?” Questions', page: 'p.136' },
     { no: 27, part: 'part-4', title: 'Qualifications', page: 'p.142' },
     { no: 28, part: 'part-4', title: 'Duty', page: 'p.146' },
