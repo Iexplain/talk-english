@@ -117,7 +117,18 @@ window.TALK_DATA = {
         { id: 'fix', t: '容易犯的错' },
         { id: 'plan', t: '怎么用这 50 分钟' }
       ] },
-    { no: 10, part: 'part-2', title: '“Why” Questions', page: 'p.54' },
+    { no: 10, part: 'part-2', title: '“Why” Questions', page: 'p.54',
+      href: 'lessons/lesson-10.html', ready: true,
+      sections: [
+        { id: 'frame', t: '回答骨架' },
+        { id: 'pattern', t: '两类 Why 的答法' },
+        { id: 'example', t: '课本例题' },
+        { id: 'items', t: '二十个问题' },
+        { id: 'vocab', t: '重点词汇' },
+        { id: 'qa', t: '老师会问什么' },
+        { id: 'fix', t: '容易犯的错' },
+        { id: 'plan', t: '怎么用这 50 分钟' }
+      ] },
     { no: 11, part: 'part-2', title: '“When” Questions', page: 'p.60' },
     { no: 12, part: 'part-2', title: '“How” Questions', page: 'p.64' },
     { no: 13, part: 'part-2', title: '“How Often” Questions', page: 'p.68' },
