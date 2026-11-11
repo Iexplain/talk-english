@@ -17,9 +17,15 @@
 
 ```
 index.html              总目录（30 课）
-lessons/lesson-01.html  Lesson 1: What Do These Signs Mean?
+lessons/lesson-NN.html  每课一页，01–30
+assets/data.js          课程数据，侧边栏和上一课/下一课都由它生成
+assets/site.js          侧边栏渲染、搜索、阅读位置高亮
 assets/style.css        全站共享样式（跟随系统深色模式、支持打印）
-signs/                  从课本裁出的标志图片
+img/lNN/                从课本裁出的配图（00 为例题图）
+signs/                  Lesson 1 的标志图片
+_sections/              各课小节清单
+tools/extract.py        从扫描版 PDF 渲染页面、裁图的工具
+LESSON-SPEC.md          单课页面的写作规范
 ```
 
 ## 本地预览
