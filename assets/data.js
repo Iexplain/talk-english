@@ -345,7 +345,18 @@ window.TALK_DATA = {
         { id: 'fix', t: '容易犯的错' },
         { id: 'plan', t: '怎么用这 50 分钟' }
       ] },
-    { no: 29, part: 'part-4', title: 'Stereotypes', page: 'p.150' },
+    { no: 29, part: 'part-4', title: 'Stereotypes', page: 'p.150',
+      href: 'lessons/lesson-29.html', ready: true,
+      sections: [
+        { id: 'frame', t: '回答骨架' },
+        { id: 'pattern', t: '保持距离的语言' },
+        { id: 'example', t: '课本例题' },
+        { id: 'items', t: '十五类人' },
+        { id: 'vocab', t: '重点词汇' },
+        { id: 'qa', t: '老师会问什么' },
+        { id: 'fix', t: '容易犯的错' },
+        { id: 'plan', t: '怎么用这 50 分钟' }
+      ] },
     { no: 30, part: 'part-4', title: 'Yes or No!', page: 'p.154' }
   ]
 };
