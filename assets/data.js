@@ -309,7 +309,18 @@ window.TALK_DATA = {
         { id: 'fix', t: '容易犯的错' },
         { id: 'plan', t: '怎么用这 50 分钟' }
       ] },
-    { no: 26, part: 'part-4', title: '“What Is It?” Questions', page: 'p.136' },
+    { no: 26, part: 'part-4', title: '“What Is It?” Questions', page: 'p.136',
+      href: 'lessons/lesson-26.html', ready: true,
+      sections: [
+        { id: 'frame', t: '回答骨架' },
+        { id: 'pattern', t: '定义公式' },
+        { id: 'example', t: '课本例题' },
+        { id: 'items', t: '二十个问题' },
+        { id: 'vocab', t: '重点词汇' },
+        { id: 'qa', t: '老师会问什么' },
+        { id: 'fix', t: '容易犯的错' },
+        { id: 'plan', t: '怎么用这 50 分钟' }
+      ] },
     { no: 27, part: 'part-4', title: 'Qualifications', page: 'p.142' },
     { no: 28, part: 'part-4', title: 'Duty', page: 'p.146' },
     { no: 29, part: 'part-4', title: 'Stereotypes', page: 'p.150' },
